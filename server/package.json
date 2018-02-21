@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API Rest",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Edsource04/tab-tracker.git"
+  },
+  "author": "Edgar Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edsource04/tab-tracker/issues"
+  },
+  "homepage": "https://github.com/Edsource04/tab-tracker#readme"
+}
