@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <v-app>
+      <AppHeader />
       <v-content>
-        <v-container>
+        <v-container fluid>
           <router-view></router-view>
         </v-container>
       </v-content>
@@ -11,8 +12,12 @@
 </template>
 
 <script>
+import AppHeader from '@/components/Header'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    AppHeader
+  }
 }
 </script>
 
